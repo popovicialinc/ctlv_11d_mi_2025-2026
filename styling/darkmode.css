@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+
+body {
+    background-color: rgb(12, 12, 12);
+}
+
+/* Bara de navigare */
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 100vh;
+    background-color: #181818;
+    color: lightgray;
+    box-shadow: rgba(72, 149, 239, 1) 0 5px 1em;
+}
+
+.nav-branding {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    color: white;
+    font-weight: 900;
+    text-shadow: rgba(255, 255, 255, 1) 0 0 2em;
+}
+
+.nav-linkuri {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav-linkuri a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: lightgray;
+}
+
+.nav-linkuri li {
+    margin: 5px 15px;
+    background-color: none  ;
+    border-radius: 0.5em;
+    list-style: none;
+    padding: 20px;
+    transition: 0.1s;
+}
+
+.nav-linkuri li:hover {
+    background-color: #464646;
+    border-radius: 0.5em;
+    list-style: none;
+}
